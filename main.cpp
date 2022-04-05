@@ -91,7 +91,7 @@ void display(void) {
 		 glVertex2i(bodies[i]->getX(), bodies[i]->getY());
 	 }
 	glEnd();
-	//dispQuads(tree);
+	dispQuads(tree);
 	glutTimerFunc((1/30)*1000, loop, 0);
 	glFlush();
 }
