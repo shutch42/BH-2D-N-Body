@@ -4,7 +4,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
-#include "octTree.h"
+#include "quadTree.h"
 
 #define PI 3.1415926
 

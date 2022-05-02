@@ -1,2 +1,2 @@
-sim: main.cpp octTree.cpp body.cpp
-	g++ -o sim main.cpp octTree.cpp body.cpp -lGL -lGLU -lglut
+sim: main.cpp quadTree.cpp body.cpp
+	g++ -o sim main.cpp quadTree.cpp body.cpp -lGL -lGLU -lglut
