@@ -8,7 +8,7 @@ This is the Barnes-Hut solution to the N-Body problem written in C++. It's much 
 - For every time step, the position and velocity of each mass is re-calculated and overwritten in the vector of bodies
 - These calculations are estimated using an quadTree, which shortens the number of calculations by grouping masses together
 - After the position and velocity are calculated, masses are displayed using points in openGL
-- This runs infinitely, or until a mass escapes the area that the octTree covers
+- This runs infinitely, or until a mass escapes the area that the quadTree covers
 
 ## Results:
 ### 1,500 Mass Simulation:
